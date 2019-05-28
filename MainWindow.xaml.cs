@@ -1,4 +1,8 @@
-﻿using System;
+/*David Laughton
+* May 28th 2019
+* J2 problem 2017
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
