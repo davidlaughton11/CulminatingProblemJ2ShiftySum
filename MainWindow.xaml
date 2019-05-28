@@ -1,0 +1,19 @@
+﻿<Window x:Class="CulminatingProblemJ2ShiftySum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CulminatingProblemJ2ShiftySum"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock TextWrapping="Wrap">The first line of input contains the number N (1 ≤ N ≤ 10000). The second line of input contains
+        k, the number of times to shift N (0 ≤ k ≤ 5).</TextBlock>
+        <TextBlock>N:</TextBlock>
+        <TextBox x:Name="NInput"></TextBox>
+        <TextBlock>k:</TextBlock>
+        <TextBox x:Name="kInput"></TextBox>
+        <Button x:Name="Start" Click="Start_Click">Click to run</Button>
+        <Label x:Name="lblOuput"></Label>
+    </StackPanel>
+</Window>
