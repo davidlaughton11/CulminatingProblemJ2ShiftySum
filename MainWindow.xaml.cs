@@ -1,4 +1,4 @@
-/*David Laughton
+﻿/*David Laughton
 * May 28th 2019
 * J2 problem 2017
 */
@@ -36,8 +36,11 @@ namespace CulminatingProblemJ2ShiftySum
             double output = 0;
             double.TryParse(kInput.Text, out k);
             double.TryParse(NInput.Text, out N);
-
-            if (k > 0)
+            if (N < 1)
+            {
+                lblOuput.Content = "N has to be greater than 1";
+            }
+            else if (k > 0)
             {
                 output = output + N;
             }
