@@ -44,6 +44,7 @@ namespace CulminatingProblemJ2ShiftySum
             {
                 output = output + N;
             }
+            //for loop to shift the k value and add it together
             for (int i = 1; i <= k; i++)
             {               
                 int x = 0;
